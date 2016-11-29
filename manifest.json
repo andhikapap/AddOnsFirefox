@@ -1,0 +1,16 @@
+{
+	"description": "my first project for mozilla ! yay",
+	"manifest_version":2,
+	"name":"wazup",
+	"version":"1.0",
+	"homepage_url":"http://andhikatsu.tk",
+	"icons":{"48":"icons/logo-48.png"},
+
+	
+
+	"background":{
+		"scripts":["background.js"]},
+
+	"browser_action":{
+		"default_icon":"icons/logo-32.png"}
+}
